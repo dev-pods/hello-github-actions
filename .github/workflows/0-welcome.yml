@@ -1,10 +1,10 @@
-name: Step 0, Welcome
+name: Passo 0, Bem-vindos
 
-# This step triggers after the learner creates a new repository from the template.
-# This workflow updates from step 0 to step 1.
+# Esta etapa é acionada após o aluno criar um novo repositório a partir do template.
+# Este fluxo de trabalho atualiza do passo 0 para o passo 1.
 
-# This will run every time we create push a commit to `main`.
-# Reference: https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows
+# Isso será executado toda vez que criarmos um commit para `main`.
+# Referência: https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows
 on:
   workflow_dispatch:
   push:
@@ -18,9 +18,9 @@ permissions:
   contents: write
 
 jobs:
-  # Get the current step to only run the main job when the learner is on the same step.
+  # Obter o passo atual para executar apenas o job principal quando o aluno estiver no mesmo passo.
   get_current_step:
-    name: Check current step number
+    name: Verificar número do passo atual
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -32,7 +32,7 @@ jobs:
       current_step: ${{ steps.get_step.outputs.current_step }}
 
   on_start:
-    name: On start
+    name: Ao iniciar
     needs: get_current_step
 
     # We will only run this action when:
@@ -48,14 +48,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # We'll need to check out the repository so that we can edit the README.
+      # Vamos precisar fazer checkout do repositório para que possamos editar o README.
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0 # Let's get all the branches.
 
-      # Make a branch, file, and commit for the learner.
-      - name: Prepare a branch, and file
+      # Criar uma branch, arquivo e commit para o aluno.
+      - name: Preparar uma branch e arquivo
         run: |
           echo "Make sure we are on step 0"
           if [ "$(cat .github/steps/-step.txt)" != 0 ]
@@ -81,8 +81,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # In README.md, switch step 0 for step 1.
-      - name: Update to step 1
+      # No README.md, trocar passo 0 pelo passo 1.
+      - name: Atualizar para o passo 1
         uses: skills/action-update-step@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}

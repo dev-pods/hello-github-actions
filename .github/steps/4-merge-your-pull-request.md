@@ -1,13 +1,13 @@
-## Step 4: Merge your workflow file
+## Passo 4: Fazer merge do seu arquivo de fluxo de trabalho
 
-_You're now able to write and run an Actions workflow! :sparkles:_
+_Agora você é capaz de escrever e executar um fluxo de trabalho do Actions! :sparkles:_
 
-Merge your changes so the action will be a part of the `main` branch.
+Faça merge de suas alterações para que a action faça parte da branch `main`.
 
-### :keyboard: Activity: Merge your workflow file
+### :keyboard: Atividade: Fazer merge do seu arquivo de fluxo de trabalho
 
-1. In your repo, click on the **Pull requests** tab.
-1. Click on the pull request you created in step 1.
-1. Click **Merge pull request**, then click **Confirm merge**.
-1. Optionally, click **Delete branch** to delete your `welcome-workflow` branch.
-1. Wait about 20 seconds, then refresh this page (the one you're following instructions from). Another workflow will run and will replace the contents of this README file with instructions for the next step.
+1. Em seu repositório, clique na aba **Pull requests**.
+1. Clique no pull request que você criou no passo 1.
+1. Clique em **Merge pull request** e depois clique em **Confirm merge**.
+1. Opcionalmente, clique em **Delete branch** para excluir sua branch `welcome-workflow`.
+1. Aguarde cerca de 20 segundos e atualize esta página (a que você está seguindo as instruções). Outro fluxo de trabalho será executado e substituirá o conteúdo deste arquivo README pelas instruções para o próximo passo.

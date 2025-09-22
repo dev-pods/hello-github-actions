@@ -1,7 +1,7 @@
-name: Step 2, Add a job
+name: Passo 2, Adicionar um job
 
-# This step triggers after every push to welcome-workflow.
-# This workflow updates from step 2 to step 3.
+# Esta etapa é acionada após cada push para welcome-workflow.
+# Este fluxo de trabalho atualiza do passo 2 para o passo 3.
 
 # This will run every time we push to welcome-workflow.
 # Reference: https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows

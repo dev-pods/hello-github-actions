@@ -1,7 +1,7 @@
-name: Step 1, Create a workflow
+name: Passo 1, Criar um fluxo de trabalho
 
-# This step triggers after every push to welcome-workflow.
-# This workflow updates from step 1 to step 2.
+# Esta etapa é acionada após cada push para welcome-workflow.
+# Este fluxo de trabalho atualiza do passo 1 para o passo 2.
 
 # This will run every time we push to welcome-workflow.
 # Reference: https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows

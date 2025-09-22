@@ -1,7 +1,7 @@
-name: Step 5, Trigger the workflow
+name: Passo 5, Acionar o fluxo de trabalho
 
-# This step triggers after we finish running "Post welcome comment".
-# This workflow updates from step 5 to step X.
+# Esta etapa é acionada após terminarmos de executar "Post welcome comment".
+# Este fluxo de trabalho atualiza do passo 5 para o passo X.
 
 # This will run every time we finish running "Post welcome comment".
 # Reference: https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows

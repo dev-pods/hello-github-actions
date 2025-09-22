@@ -1,7 +1,7 @@
-name: Step 4, Merge your pull request
+name: Passo 4, Fazer merge do seu pull request
 
-# This step triggers after a pull request is merged to `main`.
-# This workflow updates from step 4 to step 5.
+# Esta etapa é acionada após um pull request ser mesclado em `main`.
+# Este fluxo de trabalho atualiza do passo 4 para o passo 5.
 
 # This will run every time we create push a commit to `main`.
 # Reference: https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows

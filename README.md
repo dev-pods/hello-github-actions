@@ -26,7 +26,7 @@ Neste curso, você irá:
 
 ### Como iniciar este curso
 
-[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=skills&template_name=hello-github-actions&owner=%40me&name=skills-hello-github-actions&description=My+clone+repository&visibility=public)
+[![start-course](https://user-images.githubusercontent.com/1221423/235727646-4a590299-ffe5-480d-8cd5-8194ea184546.svg)](https://github.com/new?template_owner=dev-pods&template_name=hello-github-actions&owner=%40me&name=skills-hello-github-actions&description=My+clone+repository&visibility=public)
 
 1. Clique com o botão direito em **Iniciar curso** e abra o link em uma nova aba.
 2. Na nova aba, a maioria dos campos será preenchida automaticamente para você.
